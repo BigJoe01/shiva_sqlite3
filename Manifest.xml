@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+	<plugin name="sqlite3" version="1.0.0" s3dx_sdk_version="0x1090100">
+
+		<info>
+			<description>sqlite3 database engine</description>
+			<author>
+				<name>Rawen Group Hungary Kft.</name>
+				<mail>rawengroup@gmail.com</mail>
+				<site></site>
+			</author>
+		</info>
+
+		<certificate>E:\Fejlesztes\globalsign\RawenGroup.cer</certificate>
+
+		<files>
+			<platform type="Windows">
+				<arch type="x86_32">sqlite3_Windows.dll</arch>
+			</platform>
+
+			<platform type="Mac">
+				<arch type="ppc_32">sqlite3_Mac.dylib</arch>
+				<arch type="ppc_64">sqlite3_Mac.dylib</arch>
+				<arch type="x86_32">sqlite3_Mac.dylib</arch>
+				<arch type="x86_64">sqlite3_Mac.dylib</arch>
+			</platform>
+
+			<platform type="Linux">
+				<arch type="x86_32">sqlite3_Linux.so</arch>
+			</platform>
+			<platform type="iOS">
+				<arch type="arm_v6">sqlite3_iOS.a</arch>
+				<arch type="arm_v7">sqlite3_iOS.a</arch>
+			</platform>
+			<platform type="Android">
+				<arch type="arm_v5te">sqlite3_Android.a</arch>
+			</platform>
+			<platform type="Palm">
+				<arch type="arm_v6">sqlite3_Palm.a</arch>
+			</platform>
+			<platform type="BlackBerry">
+				<arch type="arm_v7">sqlite3_BlackBerry.a</arch>
+			</platform>
+			<platform type="Wii">
+				<arch type="ppc_32">sqlite3_Wii.a</arch>
+			</platform>
+			<platform type="PSP">
+				<arch type="mips_32">sqlite3_PSP.a</arch>
+			</platform>
+			<platform type="PS3">
+				<arch type="ppc_32">sqlite3_PS3.a</arch>
+			</platform>
+			<platform type="NaCl">
+				<arch type="x86_32">sqlite3_NaCl_x86_32.a</arch>
+				<arch type="x86_64">sqlite3_NaCl_x86_64.a</arch>
+			</platform>
+		</files>
+	</plugin>
+</manifest>
